@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://bbbiddy.github.io/burger/burger.html -->
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="./Burger Clicker - 6_files/style.css" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./Burger Clicker - 6_files/burger.png" />
+    <title id="title">Burrito Clicker - 0</title>
+  </head>
+  <body>
+    <img
+      id="image"
+      onmousedown="first(); return false;"
+      onmouseup="second()"
+      src="./Burger Clicker - 6_files/burger.png"
+      width="556"
+      height="438"
+    />
+    <br />
+    <h2 id="clicks">6</h2>
+    <audio id="audio" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+    <audio id="audio1" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+    <audio id="audio2" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+    <audio id="audio3" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+    <audio id="audio4" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+    <audio id="audio5" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+    <audio id="audio6" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+    <audio id="audio7" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+    <audio id="audio8" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+    <audio id="audio9" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+    <audio id="audio10" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+    <audio id="audio11" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+    <audio id="audio12" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+    <audio id="audio13" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+    <audio id="audio14" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+    <audio id="audio15" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+    <audio id="audio16" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+    <audio id="audio17" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+    <audio id="audio18" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+    <audio id="audio19" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+    <audio id="audio20" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+    <audio id="audio21" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+    <audio id="audio22" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+    <audio id="audio23" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+    <audio id="audio24" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+    <audio id="audio25" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+    <audio id="audio26" src="./Burger Clicker - 6_files/sn.mp3" visibility="none"></audio>
+
+
+    
+
+
+    <script>
+      var clicks = 0;
+      function first() {
+        image.style.transform = "scale(0.95, 0.95)";
+        clicks = clicks + 1;
+      }
+      function second() {
+        image.style.transform = null;
+      }
+      var t = setInterval(function () {
+        document.getElementById("clicks").innerHTML = clicks;
+      }, 50);
+      var ti = setInterval(function () {
+        document.getElementById("title").innerHTML =
+          "Burrito Clicker - " + clicks;
+      }, 1000);
+
+
+
+
+
+        function hunned() {
+            if (clicks >= 10) {
+            document.getElementById("audio").play();
+            document.getElementById("audio1").play();
+            document.getElementById("audio2").play();
+            document.getElementById("audio3").play();
+            document.getElementById("audio4").play();
+            document.getElementById("audio5").play();
+            document.getElementById("audio6").play();
+            document.getElementById("audio7").play();
+            document.getElementById("audio8").play();
+            document.getElementById("audio9").play();
+            document.getElementById("audio10").play();
+            document.getElementById("audio11").play();
+            document.getElementById("audio12").play();
+            document.getElementById("audio13").play();
+            document.getElementById("audio14").play();
+            document.getElementById("audio15").play();
+            document.getElementById("audio16").play();
+            document.getElementById("audio17").play();
+            document.getElementById("audio18").play();
+            document.getElementById("audio19").play();
+            document.getElementById("audio20").play();
+            document.getElementById("audio21").play();
+            document.getElementById("audio22").play();
+            document.getElementById("audio23").play();
+            document.getElementById("audio24").play();
+            document.getElementById("audio25").play();
+            document.getElementById("audio26").play();
+            clicks = clicks - 10;
+            }
+        }
+        setInterval(hunned, 1000);
+
+
+    
+
+    </script>
+  </body>
+</html>
